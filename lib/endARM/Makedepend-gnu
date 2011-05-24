@@ -1,0 +1,7 @@
+depend-gnu:
+	rm .depend-gnu
+	touch .depend-gnu
+	arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M -I.' edata.s | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//endARM/:' >> .depend-gnu
+	arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M -I.' em_end.s | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//endARM/:' >> .depend-gnu
+	arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M -I.' end.s | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//endARM/:' >> .depend-gnu
+	arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M -I.' etext.s | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//endARM/:' >> .depend-gnu

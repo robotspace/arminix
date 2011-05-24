@@ -1,0 +1,771 @@
+cd curses && sh .././generate.sh .//curses .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/curses'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/curses'
+cd dummy && sh .././generate.sh .//dummy .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/dummy'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/dummy'
+cd editline && sh .././generate.sh .//editline .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/editline'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/editline'
+cd endARM && sh .././generate.sh .//endARM .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/endARM'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/endARM'
+cd ip && sh .././generate.sh .//ip .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ip'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ip'
+cd math && sh .././generate.sh .//math .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/math'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/math'
+cd other && sh .././generate.sh .//other .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/other'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/other'
+cd posix && sh .././generate.sh .//posix .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/posix'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/posix'
+cd regex && sh .././generate.sh .//regex .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/regex'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/regex'
+cd stdio && sh .././generate.sh .//stdio .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/stdio'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/stdio'
+cd stdtime && sh .././generate.sh .//stdtime .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/stdtime'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/stdtime'
+cd syscallARM && sh .././generate.sh .//syscallARM .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/syscallARM'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/syscallARM'
+cd syslib && sh .././generate.sh .//syslib .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/syslib'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/syslib'
+cd util && sh .././generate.sh .//util .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/util'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/util'
+cd sysutil && sh .././generate.sh .//sysutil .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/sysutil'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/sysutil'
+cd timers && sh .././generate.sh .//timers .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/timers'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/timers'
+cd ARM && sh .././generate.sh .//ARM .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ARM'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ARM'
+cd gnu && sh .././generate.sh .//gnu .././obj-ack/ .././obj-gcc/ && make makefiles
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/gnu'
+make[1]: Nothing to be done for `makefiles'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/gnu'
+mkdir -p ./obj-gcc//.//ansi
+cd ansi && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ansi'
+make[1]: Nothing to be done for `all-gnu'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ansi'
+mkdir -p ./obj-gcc//.//curses
+cd curses && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/curses'
+make[1]: Nothing to be done for `all-gnu'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/curses'
+mkdir -p ./obj-gcc//.//dummy
+cd dummy && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/dummy'
+make[1]: Nothing to be done for `all-gnu'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/dummy'
+mkdir -p ./obj-gcc//.//editline
+cd editline && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/editline'
+make[1]: Nothing to be done for `all-gnu'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/editline'
+mkdir -p ./obj-gcc//.//endARM
+cd endARM && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/endARM'
+make[1]: Nothing to be done for `all-gnu'.
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/endARM'
+mkdir -p ./obj-gcc//.//ip
+cd ip && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ip'
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/oneC_sum.o oneC_sum.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/rcmd.o rcmd.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/recv.o recv.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/recvfrom.o recvfrom.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/res_comp.o res_comp.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/res_init.o res_init.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/res_mkquery.o res_mkquery.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/res_query.o res_query.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/res_send.o res_send.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/ruserok.o ruserok.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/send.o send.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/sendto.o sendto.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/servxcheck.o servxcheck.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/sethostent.o sethostent.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/setsockopt.o setsockopt.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/shutdown.o shutdown.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/socket.o socket.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I. -DNDEBUG -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ip/strcasecmp.o strcasecmp.c
+ar cr .././obj-gcc//libc.a .././obj-gcc//.//ip/accept.o .././obj-gcc//.//ip/bind.o .././obj-gcc//.//ip/connect.o .././obj-gcc//.//ip/dhcp_gettag.o .././obj-gcc//.//ip/dhcp_settag.o .././obj-gcc//.//ip/domainname.o .././obj-gcc//.//ip/ether_line.o .././obj-gcc//.//ip/ethera2n.o .././obj-gcc//.//ip/ethere2a.o .././obj-gcc//.//ip/etherh2n.o .././obj-gcc//.//ip/ethern2h.o .././obj-gcc//.//ip/getdomain.o .././obj-gcc//.//ip/gethnmadr.o .././obj-gcc//.//ip/gethostent.o .././obj-gcc//.//ip/gethostname.o .././obj-gcc//.//ip/getifaddrs.o .././obj-gcc//.//ip/getnetbyaddr.o .././obj-gcc//.//ip/getnetbyname.o .././obj-gcc//.//ip/getnetent.o .././obj-gcc//.//ip/getpeername.o .././obj-gcc//.//ip/getproto.o .././obj-gcc//.//ip/getprotoent.o .././obj-gcc//.//ip/getprotoname.o .././obj-gcc//.//ip/getservent.o .././obj-gcc//.//ip/getsockname.o .././obj-gcc//.//ip/getsockopt.o .././obj-gcc//.//ip/getsrvbyname.o .././obj-gcc//.//ip/getsrvbyport.o .././obj-gcc//.//ip/hton.o .././obj-gcc//.//ip/inet_addr.o .././obj-gcc//.//ip/inet_network.o .././obj-gcc//.//ip/inet_ntoa.o .././obj-gcc//.//ip/listen.o .././obj-gcc//.//ip/memcspn.o .././obj-gcc//.//ip/oneC_sum.o .././obj-gcc//.//ip/rcmd.o .././obj-gcc//.//ip/recv.o .././obj-gcc//.//ip/recvfrom.o .././obj-gcc//.//ip/res_comp.o .././obj-gcc//.//ip/res_init.o .././obj-gcc//.//ip/res_mkquery.o .././obj-gcc//.//ip/res_query.o .././obj-gcc//.//ip/res_send.o .././obj-gcc//.//ip/ruserok.o .././obj-gcc//.//ip/send.o .././obj-gcc//.//ip/sendto.o .././obj-gcc//.//ip/servxcheck.o .././obj-gcc//.//ip/sethostent.o .././obj-gcc//.//ip/setsockopt.o .././obj-gcc//.//ip/shutdown.o .././obj-gcc//.//ip/socket.o .././obj-gcc//.//ip/strcasecmp.o
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ip'
+mkdir -p ./obj-gcc//.//math
+cd math && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/math'
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/asin.o asin.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/atan.o atan.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/atan2.o atan2.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/ceil.o ceil.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/exp.o exp.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/fabs.o fabs.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/floor.o floor.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/fmod.o fmod.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/hugeval.o hugeval.c
+hugeval.c: In function '__huge_val':
+hugeval.c:13: warning: floating constant exceeds range of 'double'
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/log.o log.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/log10.o log10.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/pow.o pow.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/s_rint.o s_rint.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/sin.o sin.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/sinh.o sinh.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/sqrt.o sqrt.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/tan.o tan.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//math/tanh.o tanh.c
+ar cr .././obj-gcc//libc.a .././obj-gcc//.//math/asin.o .././obj-gcc//.//math/atan.o .././obj-gcc//.//math/atan2.o .././obj-gcc//.//math/ceil.o .././obj-gcc//.//math/exp.o .././obj-gcc//.//math/fabs.o .././obj-gcc//.//math/floor.o .././obj-gcc//.//math/fmod.o .././obj-gcc//.//math/hugeval.o .././obj-gcc//.//math/log.o .././obj-gcc//.//math/log10.o .././obj-gcc//.//math/pow.o .././obj-gcc//.//math/s_rint.o .././obj-gcc//.//math/sin.o .././obj-gcc//.//math/sinh.o .././obj-gcc//.//math/sqrt.o .././obj-gcc//.//math/tan.o .././obj-gcc//.//math/tanh.o
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/math'
+mkdir -p ./obj-gcc//.//other
+cd other && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/other'
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/__pm_findproc.o __pm_findproc.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_adddma.o _adddma.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_brk.o _brk.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_cprofile.o _cprofile.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_deldma.o _deldma.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_devctl.o _devctl.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_getdents.o _getdents.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_getdma.o _getdma.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_getnpid.o _getnpid.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_getnprocnr.o _getnprocnr.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_getpprocnr.o _getpprocnr.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_getprocnr.o _getprocnr.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_getsigset.o _getsigset.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_getsysinfo.o _getsysinfo.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_lseek64.o _lseek64.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_mapdriver5.o _mapdriver5.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_reboot.o _reboot.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_sbrk.o _sbrk.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_seekdir.o _seekdir.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_sprofile.o _sprofile.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_svrctl.o _svrctl.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_sysuname.o _sysuname.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/_vm_dmacalls.o _vm_dmacalls.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/asynchio.o asynchio.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/basename.o basename.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/bcmp.o bcmp.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/bcopy.o bcopy.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/bzero.o bzero.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/configfile.o configfile.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/crypt.o crypt.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/ctermid.o ctermid.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/cuserid.o cuserid.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/environ.o environ.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/errno.o errno.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/fdopen.o fdopen.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/ffs.o ffs.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/flock.o flock.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/fslib.o fslib.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/fts.o fts.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/fsversion.o fsversion.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/getgrent.o getgrent.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/getlogin.o getlogin.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/getpagesize.o getpagesize.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/getpass.o getpass.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/getpeuid.o getpeuid.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/getpwent.o getpwent.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/getttyent.o getttyent.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/getw.o getw.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/hypot.o hypot.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/index.o index.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/itoa.o itoa.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/loadname.o loadname.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/lock.o lock.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/lrand.o lrand.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/lsearch.o lsearch.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/memccpy.o memccpy.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/mstats.o mstats.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/mtab.o mtab.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/nlist.o nlist.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/paramvalue.o paramvalue.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/peekpoke.o peekpoke.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/popen.o popen.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/putenv.o putenv.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/putw.o putw.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/random.o random.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/rindex.o rindex.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/setenv.o setenv.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/setgroups.o setgroups.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/settimeofday.o settimeofday.c
+settimeofday.c: In function 'settimeofday':
+settimeofday.c:13: warning: passing argument 1 of '_stime' discards qualifiers from pointer target type
+/home/leon/repository/bootloader_port/include/time.h:70: note: expected 'time_t *' but argument is of type 'const long int *'
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/stderr.o stderr.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/strdup.o strdup.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/strlcat.o strlcat.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/strlcpy.o strlcpy.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/strtok_r.o strtok_r.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/swab.o swab.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/sys_eniop.o sys_eniop.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/syscall.o syscall.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/sysconf.o sysconf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/syslog.o syslog.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/taskcall.o taskcall.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/telldir.o telldir.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/termcap.o termcap.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/ttyname.o ttyname.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/ttyslot.o ttyslot.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/v8regerror.o v8regerror.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/v8regexp.o v8regexp.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/v8regsub.o v8regsub.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -I../../servers -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//other/writev.o writev.c
+ar cr .././obj-gcc//libc.a .././obj-gcc//.//other/__pm_findproc.o .././obj-gcc//.//other/_adddma.o .././obj-gcc//.//other/_brk.o .././obj-gcc//.//other/_cprofile.o .././obj-gcc//.//other/_deldma.o .././obj-gcc//.//other/_devctl.o .././obj-gcc//.//other/_getdents.o .././obj-gcc//.//other/_getdma.o .././obj-gcc//.//other/_getnpid.o .././obj-gcc//.//other/_getnprocnr.o .././obj-gcc//.//other/_getpprocnr.o .././obj-gcc//.//other/_getprocnr.o .././obj-gcc//.//other/_getsigset.o .././obj-gcc//.//other/_getsysinfo.o .././obj-gcc//.//other/_lseek64.o .././obj-gcc//.//other/_mapdriver5.o .././obj-gcc//.//other/_reboot.o .././obj-gcc//.//other/_sbrk.o .././obj-gcc//.//other/_seekdir.o .././obj-gcc//.//other/_sprofile.o .././obj-gcc//.//other/_svrctl.o .././obj-gcc//.//other/_sysuname.o .././obj-gcc//.//other/_vm_dmacalls.o .././obj-gcc//.//other/asynchio.o .././obj-gcc//.//other/basename.o .././obj-gcc//.//other/bcmp.o .././obj-gcc//.//other/bcopy.o .././obj-gcc//.//other/bzero.o .././obj-gcc//.//other/configfile.o .././obj-gcc//.//other/crypt.o .././obj-gcc//.//other/ctermid.o .././obj-gcc//.//other/cuserid.o .././obj-gcc//.//other/environ.o .././obj-gcc//.//other/errno.o .././obj-gcc//.//other/fdopen.o .././obj-gcc//.//other/ffs.o .././obj-gcc//.//other/flock.o .././obj-gcc//.//other/fslib.o .././obj-gcc//.//other/fts.o .././obj-gcc//.//other/fsversion.o .././obj-gcc//.//other/getgrent.o .././obj-gcc//.//other/getlogin.o .././obj-gcc//.//other/getpagesize.o .././obj-gcc//.//other/getpass.o .././obj-gcc//.//other/getpeuid.o .././obj-gcc//.//other/getpwent.o .././obj-gcc//.//other/getttyent.o .././obj-gcc//.//other/getw.o .././obj-gcc//.//other/hypot.o .././obj-gcc//.//other/index.o .././obj-gcc//.//other/itoa.o .././obj-gcc//.//other/loadname.o .././obj-gcc//.//other/lock.o .././obj-gcc//.//other/lrand.o .././obj-gcc//.//other/lsearch.o .././obj-gcc//.//other/memccpy.o .././obj-gcc//.//other/mstats.o .././obj-gcc//.//other/mtab.o .././obj-gcc//.//other/nlist.o .././obj-gcc//.//other/paramvalue.o .././obj-gcc//.//other/peekpoke.o .././obj-gcc//.//other/popen.o .././obj-gcc//.//other/putenv.o .././obj-gcc//.//other/putw.o .././obj-gcc//.//other/random.o .././obj-gcc//.//other/rindex.o .././obj-gcc//.//other/setenv.o .././obj-gcc//.//other/setgroups.o .././obj-gcc//.//other/settimeofday.o .././obj-gcc//.//other/stderr.o .././obj-gcc//.//other/strdup.o .././obj-gcc//.//other/strlcat.o .././obj-gcc//.//other/strlcpy.o .././obj-gcc//.//other/strtok_r.o .././obj-gcc//.//other/swab.o .././obj-gcc//.//other/sys_eniop.o .././obj-gcc//.//other/syscall.o .././obj-gcc//.//other/sysconf.o .././obj-gcc//.//other/syslog.o .././obj-gcc//.//other/taskcall.o .././obj-gcc//.//other/telldir.o .././obj-gcc//.//other/termcap.o .././obj-gcc//.//other/ttyname.o .././obj-gcc//.//other/ttyslot.o .././obj-gcc//.//other/v8regerror.o .././obj-gcc//.//other/v8regexp.o .././obj-gcc//.//other/v8regsub.o .././obj-gcc//.//other/writev.o
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/other'
+mkdir -p ./obj-gcc//.//posix
+cd posix && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/posix'
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/__exit.o __exit.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_access.o _access.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_alarm.o _alarm.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_cfgetispeed.o _cfgetispeed.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_cfgetospeed.o _cfgetospeed.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_cfsetispeed.o _cfsetispeed.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_cfsetospeed.o _cfsetospeed.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_chdir.o _chdir.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_chmod.o _chmod.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_chown.o _chown.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_chroot.o _chroot.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_close.o _close.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_closedir.o _closedir.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_creat.o _creat.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_dup.o _dup.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_dup2.o _dup2.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_execl.o _execl.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_execle.o _execle.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_execlp.o _execlp.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_execv.o _execv.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_execve.o _execve.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_execvp.o _execvp.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_fchmod.o _fchmod.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_fchown.o _fchown.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_fcntl.o _fcntl.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_fork.o _fork.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_fpathconf.o _fpathconf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_fstat.o _fstat.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_fstatfs.o _fstatfs.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_fsync.o _fsync.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_getcwd.o _getcwd.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_getegid.o _getegid.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_geteuid.o _geteuid.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_getgid.o _getgid.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_getgroups.o _getgroups.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_getpgrp.o _getpgrp.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_getpid.o _getpid.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_getppid.o _getppid.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_getuid.o _getuid.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_ioctl.o _ioctl.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_isatty.o _isatty.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_kill.o _kill.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_killpg.o _killpg.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_link.o _link.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_lseek.o _lseek.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_lstat.o _lstat.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_mkdir.o _mkdir.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_mkfifo.o _mkfifo.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_mknod.o _mknod.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_mount.o _mount.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_mmap.o _mmap.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_open.o _open.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_opendir.o _opendir.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_pathconf.o _pathconf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_pause.o _pause.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_pipe.o _pipe.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_ptrace.o _ptrace.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_read.o _read.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_readdir.o _readdir.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_readlink.o _readlink.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_rename.o _rename.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_rewinddir.o _rewinddir.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_rmdir.o _rmdir.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_select.o _select.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_setgid.o _setgid.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_setsid.o _setsid.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_setuid.o _setuid.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_sigaction.o _sigaction.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_sigpending.o _sigpending.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_sigprocmask.o _sigprocmask.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_sigreturn.o _sigreturn.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_sigset.o _sigset.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_sigsuspend.o _sigsuspend.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_sleep.o _sleep.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_stat.o _stat.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_stime.o _stime.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_symlink.o _symlink.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_sync.o _sync.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_tcdrain.o _tcdrain.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_tcflow.o _tcflow.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_tcflush.o _tcflush.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_tcgetattr.o _tcgetattr.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_tcsendbreak.o _tcsendbreak.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_tcsetattr.o _tcsetattr.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_time.o _time.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_times.o _times.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_truncate.o _truncate.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_umask.o _umask.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_uname.o _uname.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_unlink.o _unlink.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_utime.o _utime.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_wait.o _wait.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_waitpid.o _waitpid.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/_write.o _write.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/getloadavg.o getloadavg.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/getopt.o getopt.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/gettimeofday.o gettimeofday.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/glob.o glob.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/nice.o nice.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/priority.o priority.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//posix/usleep.o usleep.c
+ar cr .././obj-gcc//libc.a .././obj-gcc//.//posix/__exit.o .././obj-gcc//.//posix/_access.o .././obj-gcc//.//posix/_alarm.o .././obj-gcc//.//posix/_cfgetispeed.o .././obj-gcc//.//posix/_cfgetospeed.o .././obj-gcc//.//posix/_cfsetispeed.o .././obj-gcc//.//posix/_cfsetospeed.o .././obj-gcc//.//posix/_chdir.o .././obj-gcc//.//posix/_chmod.o .././obj-gcc//.//posix/_chown.o .././obj-gcc//.//posix/_chroot.o .././obj-gcc//.//posix/_close.o .././obj-gcc//.//posix/_closedir.o .././obj-gcc//.//posix/_creat.o .././obj-gcc//.//posix/_dup.o .././obj-gcc//.//posix/_dup2.o .././obj-gcc//.//posix/_execl.o .././obj-gcc//.//posix/_execle.o .././obj-gcc//.//posix/_execlp.o .././obj-gcc//.//posix/_execv.o .././obj-gcc//.//posix/_execve.o .././obj-gcc//.//posix/_execvp.o .././obj-gcc//.//posix/_fchmod.o .././obj-gcc//.//posix/_fchown.o .././obj-gcc//.//posix/_fcntl.o .././obj-gcc//.//posix/_fork.o .././obj-gcc//.//posix/_fpathconf.o .././obj-gcc//.//posix/_fstat.o .././obj-gcc//.//posix/_fstatfs.o .././obj-gcc//.//posix/_fsync.o .././obj-gcc//.//posix/_getcwd.o .././obj-gcc//.//posix/_getegid.o .././obj-gcc//.//posix/_geteuid.o .././obj-gcc//.//posix/_getgid.o .././obj-gcc//.//posix/_getgroups.o .././obj-gcc//.//posix/_getpgrp.o .././obj-gcc//.//posix/_getpid.o .././obj-gcc//.//posix/_getppid.o .././obj-gcc//.//posix/_getuid.o .././obj-gcc//.//posix/_ioctl.o .././obj-gcc//.//posix/_isatty.o .././obj-gcc//.//posix/_kill.o .././obj-gcc//.//posix/_killpg.o .././obj-gcc//.//posix/_link.o .././obj-gcc//.//posix/_lseek.o .././obj-gcc//.//posix/_lstat.o .././obj-gcc//.//posix/_mkdir.o .././obj-gcc//.//posix/_mkfifo.o .././obj-gcc//.//posix/_mknod.o .././obj-gcc//.//posix/_mount.o .././obj-gcc//.//posix/_mmap.o .././obj-gcc//.//posix/_open.o .././obj-gcc//.//posix/_opendir.o .././obj-gcc//.//posix/_pathconf.o .././obj-gcc//.//posix/_pause.o .././obj-gcc//.//posix/_pipe.o .././obj-gcc//.//posix/_ptrace.o .././obj-gcc//.//posix/_read.o .././obj-gcc//.//posix/_readdir.o .././obj-gcc//.//posix/_readlink.o .././obj-gcc//.//posix/_rename.o .././obj-gcc//.//posix/_rewinddir.o .././obj-gcc//.//posix/_rmdir.o .././obj-gcc//.//posix/_select.o .././obj-gcc//.//posix/_setgid.o .././obj-gcc//.//posix/_setsid.o .././obj-gcc//.//posix/_setuid.o .././obj-gcc//.//posix/_sigaction.o .././obj-gcc//.//posix/_sigpending.o .././obj-gcc//.//posix/_sigprocmask.o .././obj-gcc//.//posix/_sigreturn.o .././obj-gcc//.//posix/_sigset.o .././obj-gcc//.//posix/_sigsuspend.o .././obj-gcc//.//posix/_sleep.o .././obj-gcc//.//posix/_stat.o .././obj-gcc//.//posix/_stime.o .././obj-gcc//.//posix/_symlink.o .././obj-gcc//.//posix/_sync.o .././obj-gcc//.//posix/_tcdrain.o .././obj-gcc//.//posix/_tcflow.o .././obj-gcc//.//posix/_tcflush.o .././obj-gcc//.//posix/_tcgetattr.o .././obj-gcc//.//posix/_tcsendbreak.o .././obj-gcc//.//posix/_tcsetattr.o .././obj-gcc//.//posix/_time.o .././obj-gcc//.//posix/_times.o .././obj-gcc//.//posix/_truncate.o .././obj-gcc//.//posix/_umask.o .././obj-gcc//.//posix/_uname.o .././obj-gcc//.//posix/_unlink.o .././obj-gcc//.//posix/_utime.o .././obj-gcc//.//posix/_wait.o .././obj-gcc//.//posix/_waitpid.o .././obj-gcc//.//posix/_write.o .././obj-gcc//.//posix/getloadavg.o .././obj-gcc//.//posix/getopt.o .././obj-gcc//.//posix/gettimeofday.o .././obj-gcc//.//posix/glob.o .././obj-gcc//.//posix/nice.o .././obj-gcc//.//posix/priority.o .././obj-gcc//.//posix/usleep.o
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/posix'
+mkdir -p ./obj-gcc//.//regex
+cd regex && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/regex'
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//regex/regcomp.o regcomp.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//regex/regerror.o regerror.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//regex/regexec.o regexec.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//regex/regfree.o regfree.c
+ar cr .././obj-gcc//libc.a .././obj-gcc//.//regex/regcomp.o .././obj-gcc//.//regex/regerror.o .././obj-gcc//.//regex/regexec.o .././obj-gcc//.//regex/regfree.o
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/regex'
+mkdir -p ./obj-gcc//.//stdio
+cd stdio && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/stdio'
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/clearerr.o clearerr.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/data.o data.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/doprnt.o doprnt.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/doscan.o doscan.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/ecvt.o ecvt.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fclose.o fclose.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/feof.o feof.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/ferror.o ferror.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fflush.o fflush.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fgetc.o fgetc.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fgetpos.o fgetpos.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fgets.o fgets.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fileno.o fileno.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fillbuf.o fillbuf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/flushbuf.o flushbuf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fopen.o fopen.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fprintf.o fprintf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fputc.o fputc.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fputs.o fputs.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fread.o fread.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/freopen.o freopen.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fscanf.o fscanf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fseek.o fseek.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fsetpos.o fsetpos.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/ftell.o ftell.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/fwrite.o fwrite.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/getc.o getc.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/getchar.o getchar.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/gets.o gets.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/icompute.o icompute.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/mktemp.o mktemp.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/perror.o perror.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/printf.o printf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/putc.o putc.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/putchar.o putchar.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/puts.o puts.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/remove.o remove.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/rewind.o rewind.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/scanf.o scanf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/setbuf.o setbuf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/setvbuf.o setvbuf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/sprintf.o sprintf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/sscanf.o sscanf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/tmpfile.o tmpfile.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/tmpnam.o tmpnam.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/ungetc.o ungetc.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/vfprintf.o vfprintf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/vprintf.o vprintf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/vscanf.o vscanf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/vsprintf.o vsprintf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdio/vsscanf.o vsscanf.c
+ar cr .././obj-gcc//libc.a .././obj-gcc//.//stdio/clearerr.o .././obj-gcc//.//stdio/data.o .././obj-gcc//.//stdio/doprnt.o .././obj-gcc//.//stdio/doscan.o .././obj-gcc//.//stdio/ecvt.o .././obj-gcc//.//stdio/fclose.o .././obj-gcc//.//stdio/feof.o .././obj-gcc//.//stdio/ferror.o .././obj-gcc//.//stdio/fflush.o .././obj-gcc//.//stdio/fgetc.o .././obj-gcc//.//stdio/fgetpos.o .././obj-gcc//.//stdio/fgets.o .././obj-gcc//.//stdio/fileno.o .././obj-gcc//.//stdio/fillbuf.o .././obj-gcc//.//stdio/flushbuf.o .././obj-gcc//.//stdio/fopen.o .././obj-gcc//.//stdio/fprintf.o .././obj-gcc//.//stdio/fputc.o .././obj-gcc//.//stdio/fputs.o .././obj-gcc//.//stdio/fread.o .././obj-gcc//.//stdio/freopen.o .././obj-gcc//.//stdio/fscanf.o .././obj-gcc//.//stdio/fseek.o .././obj-gcc//.//stdio/fsetpos.o .././obj-gcc//.//stdio/ftell.o .././obj-gcc//.//stdio/fwrite.o .././obj-gcc//.//stdio/getc.o .././obj-gcc//.//stdio/getchar.o .././obj-gcc//.//stdio/gets.o .././obj-gcc//.//stdio/icompute.o .././obj-gcc//.//stdio/mktemp.o .././obj-gcc//.//stdio/perror.o .././obj-gcc//.//stdio/printf.o .././obj-gcc//.//stdio/putc.o .././obj-gcc//.//stdio/putchar.o .././obj-gcc//.//stdio/puts.o .././obj-gcc//.//stdio/remove.o .././obj-gcc//.//stdio/rewind.o .././obj-gcc//.//stdio/scanf.o .././obj-gcc//.//stdio/setbuf.o .././obj-gcc//.//stdio/setvbuf.o .././obj-gcc//.//stdio/sprintf.o .././obj-gcc//.//stdio/sscanf.o .././obj-gcc//.//stdio/tmpfile.o .././obj-gcc//.//stdio/tmpnam.o .././obj-gcc//.//stdio/ungetc.o .././obj-gcc//.//stdio/vfprintf.o .././obj-gcc//.//stdio/vprintf.o .././obj-gcc//.//stdio/vscanf.o .././obj-gcc//.//stdio/vsprintf.o .././obj-gcc//.//stdio/vsscanf.o
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/stdio'
+mkdir -p ./obj-gcc//.//stdtime
+cd stdtime && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/stdtime'
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -D__USG -I../../commands/zoneinfo -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdtime/asctime.o asctime.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -D__USG -I../../commands/zoneinfo -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdtime/localtime.o localtime.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -D__USG -I../../commands/zoneinfo -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//stdtime/strftime.o strftime.c
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/stdtime'
+mkdir -p ./obj-gcc//.//syscallARM
+cd syscallARM && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/syscallARM'
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/_exit.o _exit.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/_pm_findproc.o _pm_findproc.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/access.o access.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/adddma.o adddma.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/alarm.o alarm.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/brk.o brk.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/cfgetispeed.o cfgetispeed.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/cfgetospeed.o cfgetospeed.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/cfsetispeed.o cfsetispeed.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/cfsetospeed.o cfsetospeed.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/chdir.o chdir.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/chmod.o chmod.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/chown.o chown.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/chroot.o chroot.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/close.o close.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/closedir.o closedir.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/cprofile.o cprofile.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/creat.o creat.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/deldma.o deldma.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/devctl.o devctl.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/dup.o dup.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/dup2.o dup2.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/execl.o execl.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/execle.o execle.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/execlp.o execlp.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/execv.o execv.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/execve.o execve.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/execvp.o execvp.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/fchown.o fchown.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/fchmod.o fchmod.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/fcntl.o fcntl.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/fork.o fork.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/fpathconf.o fpathconf.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/fstat.o fstat.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/fstatfs.o fstatfs.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getcwd.o getcwd.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getdents.o getdents.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getdma.o getdma.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getegid.o getegid.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/geteuid.o geteuid.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getgid.o getgid.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getgroups.o getgroups.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getnpid.o getnpid.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getnprocnr.o getnprocnr.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getpgrp.o getpgrp.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getpid.o getpid.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getppid.o getppid.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getpprocnr.o getpprocnr.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getprocnr.o getprocnr.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getsigset.o getsigset.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getsysinfo.o getsysinfo.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/getuid.o getuid.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/ioctl.o ioctl.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/isatty.o isatty.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/kill.o kill.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/killpg.o killpg.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/link.o link.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/lseek.o lseek.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/lseek64.o lseek64.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/lstat.o lstat.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/mapdriver5.o mapdriver5.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/mkdir.o mkdir.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/mkfifo.o mkfifo.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/mknod.o mknod.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/mmap.o mmap.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/mount.o mount.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/open.o open.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/opendir.o opendir.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/pathconf.o pathconf.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/pause.o pause.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/pipe.o pipe.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/ptrace.o ptrace.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/read.o read.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/readdir.o readdir.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/readlink.o readlink.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/reboot.o reboot.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/rename.o rename.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/rewinddir.o rewinddir.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/rmdir.o rmdir.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sbrk.o sbrk.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/select.o select.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/seekdir.o seekdir.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/setgid.o setgid.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/setsid.o setsid.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/setuid.o setuid.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sigaction.o sigaction.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sigaddset.o sigaddset.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sigdelset.o sigdelset.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sigemptyset.o sigemptyset.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sigfillset.o sigfillset.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sigismember.o sigismember.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sigpending.o sigpending.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sigprocmask.o sigprocmask.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sigreturn.o sigreturn.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sigsuspend.o sigsuspend.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sleep.o sleep.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sprofile.o sprofile.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/stat.o stat.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/stime.o stime.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/svrctl.o svrctl.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/symlink.o symlink.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sync.o sync.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/sysuname.o sysuname.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/tcdrain.o tcdrain.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/tcflow.o tcflow.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/tcflush.o tcflush.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/tcgetattr.o tcgetattr.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/tcsendbreak.o tcsendbreak.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/tcsetattr.o tcsetattr.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/time.o time.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/times.o times.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/truncate.o truncate.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/umask.o umask.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/umount.o umount.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/uname.o uname.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/unlink.o unlink.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/utime.o utime.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/vm_dmacalls.o vm_dmacalls.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/wait.o wait.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/waitpid.o waitpid.s
+arm-elf-gcc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syscallARM/write.o write.s
+ar cr .././obj-gcc//libc.a .././obj-gcc//.//syscallARM/_exit.o .././obj-gcc//.//syscallARM/_pm_findproc.o .././obj-gcc//.//syscallARM/access.o .././obj-gcc//.//syscallARM/adddma.o .././obj-gcc//.//syscallARM/alarm.o .././obj-gcc//.//syscallARM/brk.o .././obj-gcc//.//syscallARM/cfgetispeed.o .././obj-gcc//.//syscallARM/cfgetospeed.o .././obj-gcc//.//syscallARM/cfsetispeed.o .././obj-gcc//.//syscallARM/cfsetospeed.o .././obj-gcc//.//syscallARM/chdir.o .././obj-gcc//.//syscallARM/chmod.o .././obj-gcc//.//syscallARM/chown.o .././obj-gcc//.//syscallARM/chroot.o .././obj-gcc//.//syscallARM/close.o .././obj-gcc//.//syscallARM/closedir.o .././obj-gcc//.//syscallARM/cprofile.o .././obj-gcc//.//syscallARM/creat.o .././obj-gcc//.//syscallARM/deldma.o .././obj-gcc//.//syscallARM/devctl.o .././obj-gcc//.//syscallARM/dup.o .././obj-gcc//.//syscallARM/dup2.o .././obj-gcc//.//syscallARM/execl.o .././obj-gcc//.//syscallARM/execle.o .././obj-gcc//.//syscallARM/execlp.o .././obj-gcc//.//syscallARM/execv.o .././obj-gcc//.//syscallARM/execve.o .././obj-gcc//.//syscallARM/execvp.o .././obj-gcc//.//syscallARM/fchown.o .././obj-gcc//.//syscallARM/fchmod.o .././obj-gcc//.//syscallARM/fcntl.o .././obj-gcc//.//syscallARM/fork.o .././obj-gcc//.//syscallARM/fpathconf.o .././obj-gcc//.//syscallARM/fstat.o .././obj-gcc//.//syscallARM/fstatfs.o .././obj-gcc//.//syscallARM/getcwd.o .././obj-gcc//.//syscallARM/getdents.o .././obj-gcc//.//syscallARM/getdma.o .././obj-gcc//.//syscallARM/getegid.o .././obj-gcc//.//syscallARM/geteuid.o .././obj-gcc//.//syscallARM/getgid.o .././obj-gcc//.//syscallARM/getgroups.o .././obj-gcc//.//syscallARM/getnpid.o .././obj-gcc//.//syscallARM/getnprocnr.o .././obj-gcc//.//syscallARM/getpgrp.o .././obj-gcc//.//syscallARM/getpid.o .././obj-gcc//.//syscallARM/getppid.o .././obj-gcc//.//syscallARM/getpprocnr.o .././obj-gcc//.//syscallARM/getprocnr.o .././obj-gcc//.//syscallARM/getsigset.o .././obj-gcc//.//syscallARM/getsysinfo.o .././obj-gcc//.//syscallARM/getuid.o .././obj-gcc//.//syscallARM/ioctl.o .././obj-gcc//.//syscallARM/isatty.o .././obj-gcc//.//syscallARM/kill.o .././obj-gcc//.//syscallARM/killpg.o .././obj-gcc//.//syscallARM/link.o .././obj-gcc//.//syscallARM/lseek.o .././obj-gcc//.//syscallARM/lseek64.o .././obj-gcc//.//syscallARM/lstat.o .././obj-gcc//.//syscallARM/mapdriver5.o .././obj-gcc//.//syscallARM/mkdir.o .././obj-gcc//.//syscallARM/mkfifo.o .././obj-gcc//.//syscallARM/mknod.o .././obj-gcc//.//syscallARM/mmap.o .././obj-gcc//.//syscallARM/mount.o .././obj-gcc//.//syscallARM/open.o .././obj-gcc//.//syscallARM/opendir.o .././obj-gcc//.//syscallARM/pathconf.o .././obj-gcc//.//syscallARM/pause.o .././obj-gcc//.//syscallARM/pipe.o .././obj-gcc//.//syscallARM/ptrace.o .././obj-gcc//.//syscallARM/read.o .././obj-gcc//.//syscallARM/readdir.o .././obj-gcc//.//syscallARM/readlink.o .././obj-gcc//.//syscallARM/reboot.o .././obj-gcc//.//syscallARM/rename.o .././obj-gcc//.//syscallARM/rewinddir.o .././obj-gcc//.//syscallARM/rmdir.o .././obj-gcc//.//syscallARM/sbrk.o .././obj-gcc//.//syscallARM/select.o .././obj-gcc//.//syscallARM/seekdir.o .././obj-gcc//.//syscallARM/setgid.o .././obj-gcc//.//syscallARM/setsid.o .././obj-gcc//.//syscallARM/setuid.o .././obj-gcc//.//syscallARM/sigaction.o .././obj-gcc//.//syscallARM/sigaddset.o .././obj-gcc//.//syscallARM/sigdelset.o .././obj-gcc//.//syscallARM/sigemptyset.o .././obj-gcc//.//syscallARM/sigfillset.o .././obj-gcc//.//syscallARM/sigismember.o .././obj-gcc//.//syscallARM/sigpending.o .././obj-gcc//.//syscallARM/sigprocmask.o .././obj-gcc//.//syscallARM/sigreturn.o .././obj-gcc//.//syscallARM/sigsuspend.o .././obj-gcc//.//syscallARM/sleep.o .././obj-gcc//.//syscallARM/sprofile.o .././obj-gcc//.//syscallARM/stat.o .././obj-gcc//.//syscallARM/stime.o .././obj-gcc//.//syscallARM/svrctl.o .././obj-gcc//.//syscallARM/symlink.o .././obj-gcc//.//syscallARM/sync.o .././obj-gcc//.//syscallARM/sysuname.o .././obj-gcc//.//syscallARM/tcdrain.o .././obj-gcc//.//syscallARM/tcflow.o .././obj-gcc//.//syscallARM/tcflush.o .././obj-gcc//.//syscallARM/tcgetattr.o .././obj-gcc//.//syscallARM/tcsendbreak.o .././obj-gcc//.//syscallARM/tcsetattr.o .././obj-gcc//.//syscallARM/time.o .././obj-gcc//.//syscallARM/times.o .././obj-gcc//.//syscallARM/truncate.o .././obj-gcc//.//syscallARM/umask.o .././obj-gcc//.//syscallARM/umount.o .././obj-gcc//.//syscallARM/uname.o .././obj-gcc//.//syscallARM/unlink.o .././obj-gcc//.//syscallARM/utime.o .././obj-gcc//.//syscallARM/vm_dmacalls.o .././obj-gcc//.//syscallARM/wait.o .././obj-gcc//.//syscallARM/waitpid.o .././obj-gcc//.//syscallARM/write.o
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/syscallARM'
+mkdir -p ./obj-gcc//.//syslib
+cd syslib && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/syslib'
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/alloc_util.o alloc_util.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/assert.o assert.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/panic.o panic.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_attr_r16.o pci_attr_r16.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_attr_r32.o pci_attr_r32.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_attr_r8.o pci_attr_r8.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_attr_w16.o pci_attr_w16.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_attr_w32.o pci_attr_w32.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_attr_w8.o pci_attr_w8.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_del_acl.o pci_del_acl.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_dev_name.o pci_dev_name.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_find_dev.o pci_find_dev.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_first_dev.o pci_first_dev.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_ids.o pci_ids.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_init.o pci_init.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_init1.o pci_init1.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_next_dev.o pci_next_dev.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_rescan_bus.o pci_rescan_bus.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_reserve.o pci_reserve.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_set_acl.o pci_set_acl.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/pci_slot_name.o pci_slot_name.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/safecopies.o safecopies.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_abort.o sys_abort.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_cprof.o sys_cprof.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_endsig.o sys_endsig.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_eniop.o sys_eniop.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_exec.o sys_exec.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_exit.o sys_exit.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_fork.o sys_fork.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_getinfo.o sys_getinfo.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_getsig.o sys_getsig.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_in.o sys_in.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_int86.o sys_int86.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_irqctl.o sys_irqctl.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_kill.o sys_kill.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_memset.o sys_memset.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_newmap.o sys_newmap.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_nice.o sys_nice.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_out.o sys_out.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_physcopy.o sys_physcopy.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_readbios.o sys_readbios.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_safecopy.o sys_safecopy.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_vsafecopy.o sys_vsafecopy.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_profbuf.o sys_profbuf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_sdevio.o sys_sdevio.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_segctl.o sys_segctl.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_setalarm.o sys_setalarm.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_sigreturn.o sys_sigreturn.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_sigsend.o sys_sigsend.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_privctl.o sys_privctl.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_setgrant.o sys_setgrant.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_sprof.o sys_sprof.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_stime.o sys_stime.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_times.o sys_times.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_trace.o sys_trace.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_umap.o sys_umap.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_vinb.o sys_vinb.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_vinl.o sys_vinl.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_vinw.o sys_vinw.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_vircopy.o sys_vircopy.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_vm_setbuf.o sys_vm_setbuf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_vmctl.o sys_vmctl.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_voutb.o sys_voutb.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_voutl.o sys_voutl.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/sys_voutw.o sys_voutw.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/taskcall.o taskcall.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/ds.o ds.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/vm_allocmem.o vm_allocmem.c
+vm_allocmem.c: In function 'vm_allocmem':
+vm_allocmem.c:14: warning: assignment makes pointer from integer without a cast
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/vm_brk.o vm_brk.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/vm_exec_newmem.o vm_exec_newmem.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/vm_exit.o vm_exit.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/vm_fork.o vm_fork.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/vm_map_phys.o vm_map_phys.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/vm_umap.o vm_umap.c
+vm_umap.c: In function 'vm_umap':
+vm_umap.c:15: warning: assignment makes pointer from integer without a cast
+vm_umap.c:16: warning: assignment makes pointer from integer without a cast
+vm_umap.c:18: warning: assignment makes integer from pointer without a cast
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//syslib/vm_push_sig.o vm_push_sig.c
+ar cr .././obj-gcc//libsys.a .././obj-gcc//.//syslib/alloc_util.o .././obj-gcc//.//syslib/assert.o .././obj-gcc//.//syslib/panic.o .././obj-gcc//.//syslib/pci_attr_r16.o .././obj-gcc//.//syslib/pci_attr_r32.o .././obj-gcc//.//syslib/pci_attr_r8.o .././obj-gcc//.//syslib/pci_attr_w16.o .././obj-gcc//.//syslib/pci_attr_w32.o .././obj-gcc//.//syslib/pci_attr_w8.o .././obj-gcc//.//syslib/pci_del_acl.o .././obj-gcc//.//syslib/pci_dev_name.o .././obj-gcc//.//syslib/pci_find_dev.o .././obj-gcc//.//syslib/pci_first_dev.o .././obj-gcc//.//syslib/pci_ids.o .././obj-gcc//.//syslib/pci_init.o .././obj-gcc//.//syslib/pci_init1.o .././obj-gcc//.//syslib/pci_next_dev.o .././obj-gcc//.//syslib/pci_rescan_bus.o .././obj-gcc//.//syslib/pci_reserve.o .././obj-gcc//.//syslib/pci_set_acl.o .././obj-gcc//.//syslib/pci_slot_name.o .././obj-gcc//.//syslib/safecopies.o .././obj-gcc//.//syslib/sys_abort.o .././obj-gcc//.//syslib/sys_cprof.o .././obj-gcc//.//syslib/sys_endsig.o .././obj-gcc//.//syslib/sys_eniop.o .././obj-gcc//.//syslib/sys_exec.o .././obj-gcc//.//syslib/sys_exit.o .././obj-gcc//.//syslib/sys_fork.o .././obj-gcc//.//syslib/sys_getinfo.o .././obj-gcc//.//syslib/sys_getsig.o .././obj-gcc//.//syslib/sys_in.o .././obj-gcc//.//syslib/sys_int86.o .././obj-gcc//.//syslib/sys_irqctl.o .././obj-gcc//.//syslib/sys_kill.o .././obj-gcc//.//syslib/sys_memset.o .././obj-gcc//.//syslib/sys_newmap.o .././obj-gcc//.//syslib/sys_nice.o .././obj-gcc//.//syslib/sys_out.o .././obj-gcc//.//syslib/sys_physcopy.o .././obj-gcc//.//syslib/sys_readbios.o .././obj-gcc//.//syslib/sys_safecopy.o .././obj-gcc//.//syslib/sys_vsafecopy.o .././obj-gcc//.//syslib/sys_profbuf.o .././obj-gcc//.//syslib/sys_sdevio.o .././obj-gcc//.//syslib/sys_segctl.o .././obj-gcc//.//syslib/sys_setalarm.o .././obj-gcc//.//syslib/sys_sigreturn.o .././obj-gcc//.//syslib/sys_sigsend.o .././obj-gcc//.//syslib/sys_privctl.o .././obj-gcc//.//syslib/sys_setgrant.o .././obj-gcc//.//syslib/sys_sprof.o .././obj-gcc//.//syslib/sys_stime.o .././obj-gcc//.//syslib/sys_times.o .././obj-gcc//.//syslib/sys_trace.o .././obj-gcc//.//syslib/sys_umap.o .././obj-gcc//.//syslib/sys_vinb.o .././obj-gcc//.//syslib/sys_vinl.o .././obj-gcc//.//syslib/sys_vinw.o .././obj-gcc//.//syslib/sys_vircopy.o .././obj-gcc//.//syslib/sys_vm_setbuf.o .././obj-gcc//.//syslib/sys_vmctl.o .././obj-gcc//.//syslib/sys_voutb.o .././obj-gcc//.//syslib/sys_voutl.o .././obj-gcc//.//syslib/sys_voutw.o .././obj-gcc//.//syslib/taskcall.o .././obj-gcc//.//syslib/ds.o .././obj-gcc//.//syslib/vm_allocmem.o .././obj-gcc//.//syslib/vm_brk.o .././obj-gcc//.//syslib/vm_exec_newmem.o .././obj-gcc//.//syslib/vm_exit.o .././obj-gcc//.//syslib/vm_fork.o .././obj-gcc//.//syslib/vm_map_phys.o .././obj-gcc//.//syslib/vm_umap.o .././obj-gcc//.//syslib/vm_push_sig.o
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/syslib'
+mkdir -p ./obj-gcc//.//util
+cd util && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/util'
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//util/openpty.o openpty.c
+ar cr .././obj-gcc//libutil.a .././obj-gcc//.//util/openpty.o
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/util'
+mkdir -p ./obj-gcc//.//sysutil
+cd sysutil && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/sysutil'
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/asynsend.o asynsend.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/kmalloc.o kmalloc.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/kprintf.o kprintf.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/kputc.o kputc.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/tickdelay.o tickdelay.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/getuptime.o getuptime.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/getuptime2.o getuptime2.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/env_get_prm.o env_get_prm.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/env_parse.o env_parse.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/env_panic.o env_panic.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/env_prefix.o env_prefix.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/fkey_ctl.o fkey_ctl.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/micro_delay.o micro_delay.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/report.o report.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/taskcall.o taskcall.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/read_tsc.o read_tsc.s
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/read_tsc_64.o read_tsc_64.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/stacktrace.o stacktrace.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/sys_hz.o sys_hz.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/profile_extern.o profile_extern.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//sysutil/profile.o profile.c
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/sysutil'
+mkdir -p ./obj-gcc//.//timers
+cd timers && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/timers'
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//timers/tmrs_set.o tmrs_set.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//timers/tmrs_clr.o tmrs_clr.c
+arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//timers/tmrs_exp.o tmrs_exp.c
+ar cr .././obj-gcc//libtimers.a .././obj-gcc//.//timers/tmrs_set.o .././obj-gcc//.//timers/tmrs_clr.o .././obj-gcc//.//timers/tmrs_exp.o
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/timers'
+mkdir -p ./obj-gcc//.//ARM
+cd ARM && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ARM'
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/brksize.o brksize.s
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/environ.o environ.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/exit.o exit.s
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/io.o io.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/io_intr.o io_intr.s
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/ipc.o ipc.s
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/math.o math.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/memchr.o memchr.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/memcpy.o memcpy.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/memcmp.o memcmp.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/memmove.o memmove.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/memset.o memset.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/misc.o misc.s
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/strcat.o strcat.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/strchr.o strchr.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/strcmp.o strcmp.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/strcpy.o strcpy.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/strncat.o strncat.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/strncmp.o strncmp.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/strlen.o strlen.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/strrchr.o strrchr.c
+arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -fno-builtin -c -o .././obj-gcc//.//ARM/strncpy.o strncpy.c
+ar cr .././obj-gcc//ARM.a .././obj-gcc//.//ARM/brksize.o .././obj-gcc//.//ARM/environ.o .././obj-gcc//.//ARM/exit.o .././obj-gcc//.//ARM/io.o .././obj-gcc//.//ARM/io_intr.o .././obj-gcc//.//ARM/ipc.o .././obj-gcc//.//ARM/math.o .././obj-gcc//.//ARM/memchr.o .././obj-gcc//.//ARM/memcpy.o .././obj-gcc//.//ARM/memcmp.o .././obj-gcc//.//ARM/memmove.o .././obj-gcc//.//ARM/memset.o .././obj-gcc//.//ARM/misc.o .././obj-gcc//.//ARM/strcat.o .././obj-gcc//.//ARM/strchr.o .././obj-gcc//.//ARM/strcmp.o .././obj-gcc//.//ARM/strcpy.o .././obj-gcc//.//ARM/strncat.o .././obj-gcc//.//ARM/strncmp.o .././obj-gcc//.//ARM/strlen.o .././obj-gcc//.//ARM/strrchr.o .././obj-gcc//.//ARM/strncpy.o
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ARM'
+mkdir -p ./obj-gcc//.//ack
+cd ack && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ack'
+cd float && make all-gnu
+make[2]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ack/float'
+make[2]: Nothing to be done for `all-gnu'.
+make[2]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ack/float'
+cd fphook && make all-gnu
+make[2]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ack/fphook'
+make[2]: Nothing to be done for `all-gnu'.
+make[2]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ack/fphook'
+cd i386 && make all-gnu
+make[2]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ack/i386'
+cd em && make all-gnu
+make[3]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ack/i386/em'
+make[3]: Nothing to be done for `all-gnu'.
+make[3]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ack/i386/em'
+cd head && make all-gnu
+make[3]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ack/i386/head'
+make[3]: Nothing to be done for `all-gnu'.
+make[3]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ack/i386/head'
+make[2]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ack/i386'
+cd libm2 && make all-gnu
+make[2]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ack/libm2'
+make[2]: Nothing to be done for `all-gnu'.
+make[2]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ack/libm2'
+cd libp && make all-gnu
+make[2]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ack/libp'
+make[2]: Nothing to be done for `all-gnu'.
+make[2]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ack/libp'
+cd liby && make all-gnu
+make[2]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ack/liby'
+make[2]: Nothing to be done for `all-gnu'.
+make[2]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ack/liby'
+cd math && make all-gnu
+make[2]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ack/math'
+make[2]: Nothing to be done for `all-gnu'.
+make[2]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ack/math'
+cd rts && make all-gnu
+make[2]: Entering directory `/home/leon/repository/bootloader_port/new_lib/ack/rts'
+make[2]: Nothing to be done for `all-gnu'.
+make[2]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ack/rts'
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/ack'
+mkdir -p ./obj-gcc//.//gnu
+cd gnu && make all-gnu
+make[1]: Entering directory `/home/leon/repository/bootloader_port/new_lib/gnu'
+mkdir -p .././obj-gcc//.//gnu/end
+cd end && make all-gnu
+make[2]: Entering directory `/home/leon/repository/bootloader_port/new_lib/gnu/end'
+arm-elf-gcc  -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -c -o ../.././obj-gcc//.//gnu/end/gnu_end.o gnu_end.gs
+arm-elf-gcc: gnu_end.gs: linker input file unused because linking not done
+ar cr ../.././obj-gcc//end.a 
+make[2]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/gnu/end'
+mkdir -p .././obj-gcc//.//gnu/ieee_float
+cd ieee_float && make all-gnu
+make[2]: Entering directory `/home/leon/repository/bootloader_port/new_lib/gnu/ieee_float'
+arm-elf-gcc -O -I.. -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -c -o ../.././obj-gcc//.//gnu/ieee_float/frexp.o frexp.c
+arm-elf-gcc -O -I.. -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -c -o ../.././obj-gcc//.//gnu/ieee_float/isinf.o isinf.c
+arm-elf-gcc -O -I.. -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -c -o ../.././obj-gcc//.//gnu/ieee_float/isnan.o isnan.c
+arm-elf-gcc -O -I.. -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -c -o ../.././obj-gcc//.//gnu/ieee_float/ldexp.o ldexp.c
+arm-elf-gcc -O -I.. -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -c -o ../.././obj-gcc//.//gnu/ieee_float/modf.o modf.c
+arm-elf-gcc -O -I.. -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -c -o ../.././obj-gcc//.//gnu/ieee_float/fphook.o fphook.c
+ar cr ../.././obj-gcc//libc.a ../.././obj-gcc//.//gnu/ieee_float/frexp.o ../.././obj-gcc//.//gnu/ieee_float/isinf.o ../.././obj-gcc//.//gnu/ieee_float/isnan.o ../.././obj-gcc//.//gnu/ieee_float/ldexp.o ../.././obj-gcc//.//gnu/ieee_float/modf.o ../.././obj-gcc//.//gnu/ieee_float/fphook.o
+make[2]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/gnu/ieee_float'
+mkdir -p .././obj-gcc//.//gnu/rts
+cd rts && make all-gnu
+make[2]: Entering directory `/home/leon/repository/bootloader_port/new_lib/gnu/rts'
+arm-elf-gcc  -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -c -o ../.././obj-gcc//.//gnu/rts/__setjmp.o __setjmp.gs
+arm-elf-gcc: __setjmp.gs: linker input file unused because linking not done
+arm-elf-gcc  -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -c -o ../.././obj-gcc//.//gnu/rts/longjmp.o longjmp.gs
+arm-elf-gcc: longjmp.gs: linker input file unused because linking not done
+ar cr ../.././obj-gcc//libc.a 
+make[2]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/gnu/rts'
+make[1]: Leaving directory `/home/leon/repository/bootloader_port/new_lib/gnu'

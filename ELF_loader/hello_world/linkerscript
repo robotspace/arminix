@@ -1,0 +1,77 @@
+/* entrypoint of programm (the first insruction to run after reset) */
+ENTRY (main)
+
+/* output format information (see BFD, Binary File Descriptor) */
+OUTPUT_FORMAT("elf32-littlearm", "elf32-bigarm", "elf32-littlearm")
+OUTPUT_ARCH(arm)
+
+/* memory map (RW = read-write, RX = read only-executeable) */
+MEMORY
+{
+ /* FLASH (rx) : ORIGIN = 0x60000000, LENGTH = 16M */
+  DATA (rw)  : ORIGIN = 0x00080000, LENGTH = 32M
+  STACK (rw) : ORIGIN = 0x00080000, LENGTH = 1K 
+}
+
+/* Setup stack sizes for different modes */
+stack_end 	= 0x00f5000;
+undef_stack = 0x0040;
+abort_stack = 0x0040;
+fiq_stack   = 0x0040;
+irq_stack   = 0x0200;
+svc_stack   = 0x0300;
+
+/*  ELF file layout:
+*
+* 	===========
+* 	| .text   |
+* 	-----------
+* 	| .rodata |
+* 	-----------
+* 	| .data   |
+* 	===========
+*
+*/
+
+/* Section Definitions */
+SECTIONS
+{
+
+  /* first section is .text which is used for code */
+  . = 0x0;						/* start instruction counter (.) at 0x0 */
+  .text : 
+  {
+	*(.startup) 				/* startup code (CRT0) comes first */
+    *(.text)            		/* remaining code */
+    *(.rodata)
+  } >DATA						/* place in "DATA" section of memory */
+  . = ALIGN(32);
+
+  _etext = . ;					/* end of text identifier */
+  PROVIDE (etext = .);			/* define of "extext" to use in programm */
+  PROVIDE (data = .);
+  
+  /* .data section which is used for initialized data */
+  .data : AT (_etext)			/* start data section at end of text section */
+  {
+    *(.data)					/* data section */
+  } >DATA
+  . = ALIGN(32);
+
+  PROVIDE (edata = .);			/* definition of "edata" to use in programm */
+
+
+  /* .bss (Block Started by Symbol) section which is used for uninitialized data */
+  .bss :
+  {
+    _bss_start = . ;			/* start of BSS identifier */
+    *(.bss)
+    *(COMMON)					/* treat common sections as if they were a section */
+  }
+  . = ALIGN(32);
+  
+  PROVIDE (bss_start = _bss_start);
+  PROVIDE (bss_end = .);		/* end of BSS identifier */
+  _end = .;						/* end of programm identifier */
+  PROVIDE (end = .);			/* definition of "end" to use in programm */
+}

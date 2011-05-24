@@ -1,0 +1,4 @@
+depend-ack:
+	rm .depend-ack
+	touch .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' openpty.c | sed -e 's:^\(.\):.././obj-ack//.//util/:' >> .depend-ack

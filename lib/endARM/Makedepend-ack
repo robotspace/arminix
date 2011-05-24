@@ -1,0 +1,7 @@
+depend-ack:
+	rm .depend-ack
+	touch .depend-ack
+	mkdep 'cc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' edata.s | sed -e 's:^\(.\):.././obj-ack//.//endARM/:' >> .depend-ack
+	mkdep 'cc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' em_end.s | sed -e 's:^\(.\):.././obj-ack//.//endARM/:' >> .depend-ack
+	mkdep 'cc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' end.s | sed -e 's:^\(.\):.././obj-ack//.//endARM/:' >> .depend-ack
+	mkdep 'cc -mcpu=arm920t -mtune=arm920t -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' etext.s | sed -e 's:^\(.\):.././obj-ack//.//endARM/:' >> .depend-ack

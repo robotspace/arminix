@@ -1,0 +1,4 @@
+depend-gnu:
+	rm .depend-gnu
+	touch .depend-gnu
+	arm-elf-gcc  -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -E -M -I.' gnu_end.gs | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../.././obj-gcc//.//gnu/end/\1:' >> .depend-gnu

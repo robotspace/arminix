@@ -1,0 +1,32 @@
+# Makefile for lib/ARM
+
+CFLAGS="-D_MINIX -D_POSIX_SOURCE"
+
+LIBRARIES=ARM
+
+ARM_FILES=" \
+	brksize.s \
+	crt0.s \
+	environ.c \
+	exit.s \
+	io.c \
+	io_intr.s \
+	ipc.s \
+	math.c \
+	memchr.c \
+	memcpy.c \
+	memcmp.c \
+	memmove.c \
+	memset.c \
+	misc.s \
+	strcat.c \
+	strchr.c \
+	strcmp.c \
+	strcpy.c \
+	strncat.c \
+	strncmp.c \
+	strlen.c \
+	strrchr.c \
+	strncpy.c " 
+
+TYPE=gnu

@@ -1,0 +1,10 @@
+Load hex file into flash:
+
+load -r -b 0x1000000 loader.elf
+fis write -f 0x60EC0000 -b 0x1000000 -l <length>
+
+
+Load kernel into flash
+fis delete Minix
+load -r -b 0x1000000 kernel.elf
+fis create Minix -f 0x60040000

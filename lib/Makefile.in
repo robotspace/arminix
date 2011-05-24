@@ -1,0 +1,30 @@
+
+#ACKBASE=$(CURDIR)/obj-ack
+#GNUBASE=$(CURDIR)/obj-gnu
+
+#OBJDIR=.
+
+ARCH=ARM
+
+SUBDIRS="ansi \
+	curses \
+	dummy \
+	editline \
+	endARM \
+	ip \
+	math \
+	other \
+	posix \
+	regex \
+	stdio \
+	stdtime \
+	syscallARM \
+	syslib \
+	util \
+	sysutil \
+	timers \
+	$ARCH \
+	ack
+	gnu"
+	
+TYPE=both

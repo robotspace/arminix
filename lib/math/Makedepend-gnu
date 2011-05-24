@@ -1,0 +1,21 @@
+depend-gnu:
+	rm .depend-gnu
+	touch .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M asin.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M atan.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M atan2.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M ceil.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M exp.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M fabs.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M floor.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M fmod.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M hugeval.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M log.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M log10.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M pow.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M s_rint.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M sin.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M sinh.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M sqrt.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M tan.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M tanh.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//math/:' >> .depend-gnu

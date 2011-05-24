@@ -1,0 +1,6 @@
+depend-ack:
+	rm .depend-ack
+	touch .depend-ack
+	mkdep 'cc -D_MINIX -D_POSIX_SOURCE -D__USG -I../../commands/zoneinfo -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' asctime.c | sed -e 's:^\(.\):.././obj-ack//.//stdtime/:' >> .depend-ack
+	mkdep 'cc -D_MINIX -D_POSIX_SOURCE -D__USG -I../../commands/zoneinfo -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' localtime.c | sed -e 's:^\(.\):.././obj-ack//.//stdtime/:' >> .depend-ack
+	mkdep 'cc -D_MINIX -D_POSIX_SOURCE -D__USG -I../../commands/zoneinfo -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' strftime.c | sed -e 's:^\(.\):.././obj-ack//.//stdtime/:' >> .depend-ack

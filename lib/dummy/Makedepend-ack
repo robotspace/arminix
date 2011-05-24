@@ -1,0 +1,4 @@
+depend-ack:
+	rm .depend-ack
+	touch .depend-ack
+	mkdep 'cc  -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' dummy.c | sed -e 's:^\(.\):.././obj-ack//.//dummy/:' >> .depend-ack

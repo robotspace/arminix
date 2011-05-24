@@ -1,0 +1,6 @@
+depend-gnu:
+	rm .depend-gnu
+	touch .depend-gnu
+	arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -D__USG -I../../commands/zoneinfo -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M asctime.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//stdtime/:' >> .depend-gnu
+	arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -D__USG -I../../commands/zoneinfo -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M localtime.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//stdtime/:' >> .depend-gnu
+	arm-elf-gcc -D_MINIX -D_POSIX_SOURCE -D__USG -I../../commands/zoneinfo -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M strftime.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//stdtime/:' >> .depend-gnu

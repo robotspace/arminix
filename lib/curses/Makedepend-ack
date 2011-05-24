@@ -1,0 +1,41 @@
+depend-ack:
+	rm .depend-ack
+	touch .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' beep.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' charpick.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' curs_set.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' cursesio.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' endwin.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' flash.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' initscr.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' longname.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' move.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' mvcursor.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' newwin.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' options.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' overlay.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' prntscan.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' refresh.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' scrreg.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' setterm.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' tabsize.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' termmisc.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' unctrl.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' update.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' waddch.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' waddstr.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' wbox.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' wclear.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' wclrtobot.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' wclrtoeol.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' wdelch.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' wdeleteln.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' werase.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' wgetch.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' wgetstr.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' windel.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' winmove.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' winsch.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' winscrol.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' winsertln.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' wintouch.c | sed -e 's:^\(.\):.././obj-ack//.//curses/:' >> .depend-ack

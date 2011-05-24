@@ -1,0 +1,82 @@
+/* Linkerscript for the ARMINIX kernel. By Léon Melis for the ARMINIX Project 
+*
+* notes:
+*
+* PROVIDE keyword is not used,  symbols are passed as global definitions instead.
+* If one of the symbols is accidentally defined somewhere else in the code, and the
+* PROVIDE keyword were to be used, the definition in the code would overrule the 
+* definitions in the linker, causing the kernel runtime 0 (kcrt0.s) to load wrong 
+* sections of memory
+*
+* /
+
+/* entrypoint of programm (the first insruction to run after reset) */
+ENTRY (_boot)
+
+/* output format information (see BFD, Binary File Descriptor) */
+OUTPUT_FORMAT("elf32-littlearm", "elf32-bigarm", "elf32-littlearm")
+OUTPUT_ARCH(arm)
+
+/* memory map (RW = read-write, RX = read only-executeable) */
+MEMORY
+{
+ /* FLASH (rx) : ORIGIN = 0x60000000, LENGTH = 16M */
+  DATA (rw)  : ORIGIN = 0x00080000, LENGTH = 32M
+  STACK (rw) : ORIGIN = 0x00080000, LENGTH = 1K 
+}
+
+/* Setup stack sizes for different modes */
+stack_end	= 0x00f5000;
+undef_stack	= 0x0040;
+abort_stack	= 0x0040;
+fiq_stack	= 0x0040;
+irq_stack	= 0x0200;
+svc_stack	= 0x0300;
+
+/*  ELF file layout:
+*
+* 	===========
+* 	| .text   |
+* 	-----------
+* 	| .rodata |
+* 	-----------
+* 	| .data   |
+* 	===========
+*
+*/
+
+/* Section Definitions */
+SECTIONS
+{
+	/* first section is .text which is used for code */
+	. = 0x0;						/* start instruction counter (.) at 0x0 */
+	.text : 
+	{
+		*(.startup) 				/* startup code (CRT0) comes first */
+		*(.text)            		/* remaining code */
+		*(.rodata)
+	} >DATA							/* place in "DATA" section of memory */
+
+	etext = .;			/* define of "extext" to use in programm */
+  
+	/* .data section which is used for initialized data */
+	.data ALIGN(0x10): 			/* start data section at end of text section */
+	{
+	    data = .;
+    	*(.data)					/* data section */
+	} >DATA
+
+	edata = .;			/* definition of "edata" to use in programm */
+
+
+	/* .bss (Block Started by Symbol) section which is used for uninitialized data */
+	.bss ALIGN(0x10):
+	{
+		bss_start = .;	/* start of BSS identifier */
+		*(.bss)
+		*(COMMON)					/* treat common sections as if they were a section */
+	} >DATA
+
+	bss_end = .;		/* end of BSS identifier */
+	end = .;			/* definition of "end" to use in programm */
+}

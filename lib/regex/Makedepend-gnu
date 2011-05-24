@@ -1,0 +1,7 @@
+depend-gnu:
+	rm .depend-gnu
+	touch .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M regcomp.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//regex/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M regerror.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//regex/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M regexec.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//regex/:' >> .depend-gnu
+	arm-elf-gcc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E -M regfree.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):.././obj-gcc//.//regex/:' >> .depend-gnu

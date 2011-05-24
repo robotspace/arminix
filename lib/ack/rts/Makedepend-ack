@@ -1,0 +1,4 @@
+depend-ack:
+	rm .depend-ack
+	touch .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mcpu=arm920t -mtune=arm920t -E' setjmp.e | sed -e 's:^\(.\):../.././obj-ack//.//ack/rts/\1:' >> .depend-ack

@@ -1,0 +1,13 @@
+# Makefile for lib/end.
+
+CFLAGS="-mcpu=arm920t -mtune=arm920t"
+
+LIBRARIES=end
+
+end_FILES=" \
+	edata.s \
+	em_end.s \
+	end.s \
+	etext.s"
+
+TYPE=both

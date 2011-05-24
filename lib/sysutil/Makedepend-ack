@@ -1,0 +1,24 @@
+depend-ack:
+	rm .depend-ack
+	touch .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' asynsend.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' kmalloc.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' kprintf.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' kputc.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' tickdelay.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' getuptime.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' getuptime2.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' env_get_prm.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' env_parse.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' env_panic.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' env_prefix.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' fkey_ctl.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' micro_delay.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' report.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' taskcall.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' read_tsc.s | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' read_tsc_64.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' stacktrace.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' sys_hz.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' profile_extern.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -nostartfiles -nodefaultlibs -O0 -mtune=arm920t -fno-builtin -E' profile.c | sed -e 's:^\(.\):.././obj-ack//.//sysutil/:' >> .depend-ack
