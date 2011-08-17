@@ -2,7 +2,7 @@
 DRIVER = memory
 
 # directories
-u = /usr
+u = ../../
 i = $u/include
 s = $i/sys
 m = $i/minix
@@ -18,7 +18,7 @@ d = ..
 
 
 CPPFLAGS=
-CFLAGS=-O0 -mcpu=arm920t -mtune=arm920t -mstructure-size-boundary=32 -fpack-struct -fno-builtin -Dmain=$(DRIVER)_main
+CFLAGS=-O0 -mcpu=arm920t -mtune=arm920t -mstructure-size-boundary=32 -fpack-struct -fno-builtin -Dmain=$(DRIVER)_main -I$i
 CC=arm-elf-gcc
 MAKE=make
 
