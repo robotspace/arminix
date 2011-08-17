@@ -1,7 +1,7 @@
 # Makefile for driver library
 DRIVER=libdriver_asyn
 # Directories
-u = /usr
+u = ../../
 i = $u/include
 s = $i/sys
 b = $i/ibm
@@ -28,7 +28,7 @@ COMPAT= -Dmain=$(DRIVER)_main \
 				-Ddo_diocntl=$(DRIVER)_do_diocntl \
 				-Dmq_queue=$(DRIVER)_mq_queue
 				
-CFLAGS=-O0 -mcpu=arm920t -mtune=arm920t -mstructure-size-boundary=32 -fpack-struct -fno-builtin $(COMPAT)
+CFLAGS=-O0 -mcpu=arm920t -mtune=arm920t -mstructure-size-boundary=32 -fpack-struct -fno-builtin $(COMPAT) -I$i
 CC=arm-elf-gcc
 LIBS=-Wl,--start-group ../lib/obj-gnu/*.a  /usr/local/arm-elf/lib/gcc/arm-elf/4.4.1/*.a -Wl,--end-group -nostartfiles -nodefaultlibs 
 BUILDDIR=../obj-ARM
