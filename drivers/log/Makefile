@@ -2,7 +2,7 @@
 DRIVER = log
 
 # directories
-u = /usr
+u = ../../
 i = $u/include
 s = $i/sys
 m = $i/minix
@@ -17,7 +17,7 @@ d = ..
 COMPAT= -Dmain=$(DRIVER)_main \
 
 				
-CFLAGS=-g -O0 -mcpu=arm920t -mtune=arm920t -mstructure-size-boundary=32 -fpack-struct -fno-builtin $(COMPAT)
+CFLAGS=-g -O0 -mcpu=arm920t -mtune=arm920t -mstructure-size-boundary=32 -fpack-struct -fno-builtin $(COMPAT) -I$i
 CC=arm-elf-gcc
 LIBS=-Wl,--start-group ../lib/obj-gnu/*.a  /usr/local/arm-elf/lib/gcc/arm-elf/4.4.1/*.a -Wl,--end-group -nostartfiles -nodefaultlibs 
 BUILDDIR=../obj-ARM
