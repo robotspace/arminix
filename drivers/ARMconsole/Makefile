@@ -4,7 +4,7 @@ DRIVER = tty
 include ../../etc/make.conf
 
 # directories
-u = /usr
+u = ../../
 i = $u/include
 s = $i/sys
 m = $i/minix
@@ -22,8 +22,9 @@ COMPAT= -Dmain=$(DRIVER)_main \
 		-Ddo_diagnostics=$(DRIVER)_do_diagnostics
 
 
-CPPFLAGS=
-CFLAGS=-O0 -mcpu=arm920t -mtune=arm920t -mstructure-size-boundary=32 -fpack-struct -fno-builtin $(COMPAT)
+
+CFLAGS=-O0 -mcpu=arm920t -mtune=arm920t -mstructure-size-boundary=32 -fpack-struct -fno-builtin $(COMPAT) -I $(i)
+CPPFLAGS=$(CFLAGS)
 CC=arm-elf-gcc
 #MAKE=arm-elf-make
 MAKE=make
