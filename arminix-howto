@@ -1,0 +1,143 @@
+GettingStarted
+
+Some quick tips on how to get started with ARMINIX development:
+
+1. Get yourself a suitable ARM development board.
+2. Set up the development environment, by using this guide.
+3. Download the sources from the [SourceForge project page].
+4. Build the libraries (read here)
+5. Build the kernel
+6. Load the kernel ELF file, by using a debugger, or the experimental ELF loader
+7. Improve code
+8. Goto 5
+
+Happy hacking! 
+
+
+SupportedHardware
+
+Currently, ARMINIX is being developed on a Cirrus Logic EP9302 CPU.
+
+
+The Olimex CS-E9302 board is one of the cheapest board available that features a JTAG port for debugging.
+
+In combination with a cheap JTAG USB dongle, like the olimex ARM-USB-tiny, you can have true single step debugging right on the hardware, for minimal cost.
+
+Offcourse, any other ARMv4 based development board will do, as long as it has a JTAG header, which will make your life much easier. 
+
+EnvironmentSetup
+
+This is a suggestion how to set up the development environment. It uses GNU binutils and GCC.
+GDB, insight and openOCD are also added for debugging.
+
+GCC 4.4.1 requires GMP and MPFR libraries, to install, use:
+wget ftp://ftp.gmplib.org/pub/gmp-4.3.2/gmp-4.3.2.tar.bz2
+wget http://www.mpfr.org/mpfr-current/mpfr-2.4.2.tar.bz2
+
+tar -xjf gmp-4.3.2.tar.bz2
+tar -xjf mpfr-2.4.2.tar.bz2
+
+cd gmp-4.3.2
+./configure
+make
+sudo make install
+cd ../
+
+cd mpfr-2.4.2
+./configure
+make
+sudo make install
+cd ../
+
+
+You should now be ready to build the chain
+
+mkdir toolchain
+cd toolchain
+export target=arm-elf
+export prefix=/usr/local/$target
+sudo mkdir -p $prefix/bin
+export PATH=$prefix/bin:$PATH
+
+wget ftp://ftp.gnu.org/gnu/binutils/binutils-2.20.tar.bz2
+wget ftp://ftp.gnu.org/gnu/gcc/gcc-4.4.1/gcc-core-4.4.1.tar.bz2
+wget ftp://ftp.gnu.org/gnu/gdb/gdb-6.8.tar.bz2
+wget ftp://sourceware.org/pub/insight/releases/insight-6.8-1.tar.bz2
+
+tar -xjf binutils-2.20.tar.bz2
+tar -xjf gcc-core-4.4.1.tar.bz2
+tar -xjf gdb-6.8.tar.bz2
+tar -xjf insight-6.8-1.tar.bz2
+
+Binutils-2.20 does not build with GCC 4.4.1+, use this patch to solve this.
+cd binutils-2.20
+mkdir build-$target
+cd build-$target
+../configure --target=$target --prefix=$prefix --enable-interwork --enable-multilib --disable-nls --disable-shared --disable-threads --with-gcc --with-gnu-as --with-gnu-ld
+make
+sudo make install
+cd ../..
+arm-elf-as --version
+
+
+cd gcc-4.4.1
+mkdir build-$target
+cd build-$target/
+../configure --target=$target --prefix=$prefix --disable-nls --disable-shared --disable-threads --with-gcc --with-gnu-ld --with-gnu-as --with-dwarf2 --enable-languages=c --enable-interwork --enable-multilib --disable-libssp --disable-libstdcxx-pch --disable-libmudflap --disable-libgomp
+make
+sudo make install
+cd ../..
+arm-elf-gcc --version
+
+
+cd gdb-6.8
+mkdir build-$target
+cd build-$target/
+../configure --target=$target --prefix=$prefix --disable-nls --with-expat=yes --disable-tui --disable-werror
+make
+sudo make install
+cd ../..
+
+
+cd insight-6.8-1
+mkdir build-$target
+cd build-$target/
+../configure --target=$target --prefix=$prefix --disable-nls --with-expat=yes --disable-werror
+make
+sudo make install
+
+
+In order for the above setup to work, export these variables:
+
+export prefix=/usr/local/$target
+export PATH=$prefix/bin:$PATH
+export C_INCLUDE_PATH=<path_to_arminix_sources>/include:$C_INCLUDE_PATH
+
+
+
+BuildLibraries
+
+To build the libraries, simply run "make all-gnu" from the lib directory.
+
+The main makefile generates all Makefile in all subdirectories (if necessary) using the generate.sh script.
+
+Generate.sh generates the Makefile per subdirectory, using the Makefile.in as an input. Makefile.in contains all filenames that need to be build, as well as local compiler options, that overrule the options defined in generate.sh.
+
+If, for same reason, you need to run generate.sh manually (of you lose the main makefile for instance) run:
+sh ./generate.sh <work_dir> <ack_obj_dir> <gnu_obj_dir>
+Note that the ack object directory is unused for arminix, if someone feels like removing this feature, feel free to do so.
+
+For example to generate the main Makefile, run:
+sh ./generate ./ ./obj-ack ./obj-gnu
+
+
+Because we are actually building libraries (thus, not using GCC libraries and headers), keep in mind to set the C_INCLUDE_PATH to your arminix include directory. Also, add the location of the ARM-ELF-GCC binary to your PATH variable, so Make can find your compiler:
+
+example:
+export target=arm-elf
+export prefix=/usr/local/$target
+export PATH=$prefix/bin:$PATH
+export C_INCLUDE_PATH=/home/user/projects/arminix/include:$C_INCLUDE_PATH 
+
+
+my friend, please type command arm-elf-insight to call insight. ---lizhenpeng
